@@ -47,7 +47,7 @@ export default {
 <style scoped>
 .gradientText {
   width: 50%;
-  margin: 0 25%;
+  margin: 20px 25%;
   background: #2fda8d;
   background: -webkit-linear-gradient(left, #2fda8d, #48d0da);
   background: -moz-linear-gradient(right, #2fda8d, #48d0da);

@@ -1,16 +1,18 @@
 <template>
-  <div class="container">
-    <div class="omrs-input-group">
-      <label class="omrs-input-underlined">
-        <input required v-model="inputText" type="text" />
-        <span class="omrs-input-label">Input Text!</span>
-        <span class="omrs-input-helper">글자를 입력 후 제출 버튼을 눌러보세요!</span>
-      </label>
+  <div>
+    <div class="container">
+      <div class="omrs-input-group">
+        <label class="omrs-input-underlined">
+          <input required v-model="inputText" type="text" />
+          <span class="omrs-input-label">Input Text!</span>
+          <span class="omrs-input-helper">글자를 입력 후 제출 버튼을 눌러보세요!</span>
+        </label>
+      </div>
     </div>
+    <button class="gradient-btn" @click="rotateText">제출</button>
+    <button class="gradient-btn" @click="alert">알림</button>
+    <div class="gradientText">{{ inputText }}</div>
   </div>
-  <button class="gradient-btn" @click="rotateText">제출</button>
-  <button class="gradient-btn" @click="alert">알림</button>
-  <div class="gradientText">{{ inputText }}</div>
 </template>
 
 <script>
@@ -48,11 +50,11 @@ export default {
 .gradientText {
   width: 50%;
   margin: 20px 25%;
-  background: #2fda8d;
-  background: -webkit-linear-gradient(left, #2fda8d, #48d0da);
-  background: -moz-linear-gradient(right, #2fda8d, #48d0da);
-  background: -o-linear-gradient(right, #2fda8d, #48d0da);
-  background: linear-gradient(to right, #2fda8d, #48d0da);
+  background: #50db9d;
+  background: -webkit-linear-gradient(left, #50db9d, #1c6995);
+  background: -moz-linear-gradient(right, #50db9d, #1c6995);
+  background: -o-linear-gradient(right, #50db9d, #1c6995);
+  background: linear-gradient(to right, #50db9d, #1c6995);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -112,7 +114,7 @@ div.omrs-input-group {
 
 .omrs-input-underlined > input:hover,
 .omrs-input-filled > input:hover {
-  background: rgba(73, 133, 224, 0.12);
+  background: rgba(129, 243, 228, 0.12);
   border-color: #121212;
 }
 

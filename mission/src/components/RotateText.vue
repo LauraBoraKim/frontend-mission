@@ -48,8 +48,8 @@ export default {
 </script>
 <style scoped>
 .gradientText {
-  width: 50%;
-  margin: 20px 25%;
+  width: 30%;
+  margin: 20px 35%;
   background: #50db9d;
   background: -webkit-linear-gradient(left, #50db9d, #1c6995);
   background: -moz-linear-gradient(right, #50db9d, #1c6995);

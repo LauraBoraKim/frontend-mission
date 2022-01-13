@@ -1,14 +1,5 @@
 <template>
-<<<<<<< HEAD
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </div>
-  <notifications />
-  <router-view/>
-=======
   <router-view />
->>>>>>> 03e08be... [Week 2] Add template & mission docs
 </template>
 
 <style>

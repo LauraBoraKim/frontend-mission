@@ -113,7 +113,7 @@ export default {
     };
   },
   methods: {
-    initBindData() {
+    initData() {
       this.id = itemInfo[0].id;
       this.seller = itemInfo[0].seller;
       this.mainImageUrl = itemInfo[0].mainImageUrl;
@@ -142,7 +142,7 @@ export default {
     },
   },
   created() {
-    this.initBindData();
+    this.initData();
   },
 };
 </script>

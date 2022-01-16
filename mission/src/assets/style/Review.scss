@@ -1,0 +1,46 @@
+.divider {
+  margin-top: 10px;
+  width: 100%;
+  max-width: 375px;
+  border-bottom: solid 1px #d2d2d2;
+}
+.div-review-wrapper {
+  .div-review {
+    cursor: pointer;
+    margin-top: 20px;
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+    .div-review-list-review {
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      max-width: 276px;
+      width: 270px;
+      .div-review-list-reviewer {
+        display: flex;
+        width: 100%;
+        .div-reviewer {
+          font-size: 12px;
+        }
+        .div-created {
+          margin-left: 10px;
+          color: #847f7f;
+          font-size: 12px;
+        }
+      }
+      .div-review-satisfaction {
+        overflow: hidden;
+        font-weight: 500;
+        text-overflow: ellipsis;
+      }
+      .div-review-content {
+        color: #7e7e7e;
+        font-size: 14px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+    }
+  }
+}

@@ -95,6 +95,7 @@ ESLint 룰에 명시되어 있기 때문이다.
 
 # 2주차 미션 
  ! 동영상에서 깜빡 잊고 버튼 클릭 시연을 하지 않았는데, 정상적으로 작동됩니다 :D
+ 
  ![mission2](https://user-images.githubusercontent.com/50609368/149669413-61f01125-abfe-494a-8aa7-d3c8add2e26b.gif)
 
  ## **미션**

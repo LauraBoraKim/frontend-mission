@@ -8,7 +8,12 @@
           </div>
           <div class="div-created">{{ review.createdDate }}</div>
         </div>
-        <div class="div-review-satisfaction">{{ review.title }}만족해요</div>
+        <div v-if="review.isSatisfied === true">
+          <div class="div-review-satisfaction">만족해요</div>
+        </div>
+        <div v-else>
+          <div class="div-review-satisfaction">별로예요</div>
+        </div>
         <div class="div-review-content">{{ review.content }}</div>
       </div>
       <img

@@ -1,7 +1,8 @@
 # frontend-mission
 <details>
 <summary>1주차 미션</summary>
-<div markdown="1">       
+<div markdown="1">    
+    
 # 1주차: 개발환경 설정 & Warm up
 - 아래 문서를 Notion에서 읽고싶다면 👉 [노션에서 읽기](https://www.notion.so/1-_-b8ec859219674b14b3402a28a88028c4)
 # 출제자의 의도

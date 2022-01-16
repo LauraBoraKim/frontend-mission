@@ -13,6 +13,7 @@
 
   .div-bottom-main-image {
     width: 95%;
+    max-width: 375px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -20,6 +21,9 @@
     .div-seller-wrapper {
       display: flex;
       align-items: center;
+      justify-content: space-between;
+      width: 95%;
+      max-width: 375px;
       img {
         width: 40px;
         height: auto;
@@ -27,6 +31,7 @@
       }
 
       .div-seller-info {
+        width: 100%;
         margin-left: 10px;
         .div-seller-name {
           font-size: 17px;
@@ -58,6 +63,7 @@
     }
   }
   .div-item-main-wrapper {
+    max-width: 375px;
     width: 95%;
     display: flex;
     flex-direction: column;
@@ -72,6 +78,8 @@
       align-items: center;
       font-size: 20px;
       font-weight: bold;
+      max-width: 375px;
+
       .div-discount-persent {
         color: #f52c2c;
         margin-right: 5px;
@@ -100,9 +108,11 @@
       display: flex;
       align-items: center;
       padding-left: 10px;
+      cursor: pointer;
     }
   }
   .div-review-info-wrapper {
+    max-width: 375px;
     width: 95%;
     display: flex;
     flex-direction: column;
@@ -112,6 +122,7 @@
       font-size: 12px;
       color: #2862e0;
       text-decoration: underline;
+      cursor: pointer;
     }
     .div-rate-of-satisfationc {
       font-size: 15px;
@@ -119,6 +130,7 @@
     }
   }
   .div-item-info-wrapper {
+    max-width: 375px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -137,11 +149,15 @@
     width: 95%;
     max-width: 375px;
   }
+  .div-margin-bottom {
+    height: 60px;
+  }
   .like-button {
     margin-left: auto;
     cursor: pointer;
   }
   .div-floating-buy-button {
+    max-width: 375px;
     width: 100%;
     background-color: #fff;
     position: fixed;
@@ -149,143 +165,20 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px 10px;
+    padding: 10px 0px 20px 0px;
     .div-buy-button {
-      width: 300px;
+      width: 280px;
       height: 50px;
       border: none;
       border-radius: 5px;
       background-color: #000;
       cursor: pointer;
-      color: white;
+      color: #fff;
       display: flex;
       align-items: center;
       justify-content: center;
       padding: 0px 10px;
+      margin: 0px 10px;
     }
   }
-}
-.bottom-botton {
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  border-top: solid 1px #d2d2d2;
-  position: fixed; /* top:579px; */
-  bottom: 0;
-}
-.buy-botton {
-  cursor: pointer;
-  max-width: 250px;
-  width: 100%;
-  height: 50px;
-  border: none;
-  border-radius: 5px;
-  background-color: black;
-  color: white;
-}
-.buy-botton:hover {
-  background-color: gray;
-}
-.divider {
-  width: 100%;
-  max-width: 375px;
-  border-bottom: solid 1px #d2d2d2;
-}
-.info {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: relative;
-}
-
-.info-seller-wrapper {
-  max-width: 340px;
-  width: 100%;
-}
-.info-seller {
-  max-width: 340px;
-  display: flex;
-  width: 100%;
-  height: 100%;
-  gap: 10px;
-}
-.info-seller-profileImg {
-  border-radius: 50px;
-  width: 40px;
-  height: 40px;
-}
-.info-seller-subinfo-name {
-  text-align: left;
-  font-weight: bold;
-}
-.info-seller-subinfo-tag {
-  color: #847f7f;
-  font-size: 12px;
-}
-.info-item {
-  margin-top: 20px;
-  max-width: 340px;
-  width: 100%;
-  height: 100%;
-  text-align: left;
-}
-.info-item-title {
-  font-size: 30px;
-  font-weight: bold;
-}
-.discount-price-info {
-  max-width: 170px;
-  width: 100%;
-  display: flex;
-  margin-top: 10px;
-  margin-left: 5px;
-  justify-content: space-between;
-}
-.info-item-priceinfo-price {
-  font-weight: bold;
-}
-.info-item-priceinfo-rate {
-  color: red;
-  font-size: 16px;
-}
-.info-item-priceinfo-discountPrice {
-  font-weight: bold;
-}
-.won {
-  font-size: 12px;
-}
-.info-item-priceinfo-origin_price {
-  margin-top: 4px;
-  font-size: 12px;
-  color: #847f7f;
-  text-decoration: line-through;
-}
-.originwon {
-  font-size: 8px;
-  color: #847f7f;
-}
-.info-title {
-  font-size: 20px;
-  font-weight: bold;
-  margin-top: 40px;
-}
-.info-content {
-  margin-top: 20px;
-  max-width: 375px;
-  width: 100%;
-}
-.info-review {
-  margin-top: 20px;
-  max-width: 340px;
-  width: 100%;
-  display: flex;
-  justify-content: left;
-  font-size: 20px;
-  font-weight: bold;
-}
-.like-button {
-  margin-left: auto;
-  cursor: pointer;
-}
-footer {
-  height: 50px;
 }

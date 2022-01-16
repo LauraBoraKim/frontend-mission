@@ -1,9 +1,9 @@
 <template>
   <div v-if="this.isLiked === true">
-    <img src="../assets/likeIcon.svg" alt="" @click="onLikeClick" />
+    <img class="img-like-button" src="../assets/likeIcon.svg" alt="" @click="onLikeClick" />
   </div>
   <div v-else>
-    <img src="../assets/likedIcon.svg" alt="" @click="onLikeClick" />
+    <img class="img-like-button" src="../assets/likedIcon.svg" alt="" @click="onLikeClick" />
   </div>
 </template>
 

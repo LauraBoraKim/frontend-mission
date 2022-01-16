@@ -1,31 +1,26 @@
-.divider {
-  margin-top: 10px;
-  width: 100%;
-  max-width: 375px;
-  border-bottom: solid 1px #d2d2d2;
-}
 .div-review-wrapper {
   .div-review {
-    cursor: pointer;
-    margin-top: 20px;
     display: flex;
-    width: 95%;
     justify-content: space-between;
-    .div-review-list-review {
+    width: 95%;
+    margin-top: 20px;
+    cursor: pointer;
+    .div-review-left {
       display: flex;
       flex-direction: column;
+      width: 280px;
       text-align: left;
-      max-width: 276px;
-      width: 270px;
-      .div-review-list-reviewer {
+      max-width: 280px;
+      .div-review-left-top {
         display: flex;
         width: 100%;
         .div-reviewer {
           font-size: 12px;
+          line-height: 10px;
         }
         .div-created {
           margin-left: 10px;
-          color: #847f7f;
+          color: #7a7a7a;
           font-size: 12px;
         }
       }
@@ -35,12 +30,24 @@
         text-overflow: ellipsis;
       }
       .div-review-content {
-        color: #7e7e7e;
+        color: #727272;
         font-size: 14px;
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
       }
     }
+    .img-review {
+      width: 100%;
+      height: 100%;
+      max-width: 70px;
+      max-height: 70px;
+    }
   }
+}
+.divider {
+  margin-top: 10px;
+  width: 100%;
+  max-width: 375px;
+  border-bottom: solid 1px #ccc;
 }
